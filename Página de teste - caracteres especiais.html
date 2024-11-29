@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=2.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Special Characters Test Page</title>
+  <title>Teste de caracteres especiais</title>
   <link rel="stylesheet" type="text/css" href="default.css" title="Default style sheet" />
 </head>
 <body>
@@ -18,97 +18,94 @@
 <tr>
 <th scope="col">Simbolo</th>
 <th scope="col">O caractere</th>
-<th scope="col">Uso com contexto</th>
+<th scope="col">Como é lido pelo LT</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <th scope="row">til</th>
 <td style="text-align: center;">~</td>
-<td><code>https:// www.site.com/ ~usuário</code></td>
+<td><code>não é lido</code></td>
 </tr>
 <tr>
 <th scope="row">crase</th>
 <td style="text-align: center;">`</td>
-<td>&amp;id=`1`</td>
+<td>não é lido</td>
 </tr>
 <tr>
 <th scope="row">exclamação</th>
 <td style="text-align: center;">!</td>
-<td><p>Isso é incrível!</p>
-<p>Isso é incrível.</p></td>
+<td><p>não é lido</p>
 </tr>
 <tr>
 <th scope="row">exclamação invertida</th>
 <td style="text-align: center;">¡</td>
 <td lang="es"><p>Intersante. ¡Ay caramba!</p>
-<p>Intersante. Ay caramba.</p></td>
+<p>exclamação invertida</p></td>
 </tr>
 <tr>
 <th scope="row">arroba</th>
 <td style="text-align: center;">@</td>
-<td>eu tenho uma mensagem para @ellen</td>
+<td>arroba</td>
 </tr>
 <tr>
 <th scope="row">Jogo da velha / cerquilha</th>
 <td style="text-align: center;">#</td>
-<td>Eu moro no apartamento #13</td>
+<td>número</td>
 </tr>
 <tr>
 <th scope="row">circunflexo</th>
 <td style="text-align: center;">^</td>
-<td>Este não é ^o pior que eu vi</td>
+<td>não é lido</td>
 </tr>
 <tr>
 <th scope="row">asterisco</th>
 <td style="text-align: center;">*</td>
-<td><p>campos marcados com * são obrigatórios.</p>
-<p>Name*</p></td>
+<td><p>asterisco</p>
 </tr>
 <tr>
 <th scope="row">hífen</th>
 <td style="text-align: center;">-</td>
 <td><p>azul-verde.</p>
-<p>Isso é - não surpreendentemente - um teste</p></td>
+<p>não é lido</p></td>
 </tr>
 <tr>
 <th scope="row">Barra</th>
 <td style="text-align: center;">/</td>
 <td><p>home/productos/serviços</p>
-<p>para comer/beber pegue uma senha.</p>
-<p>https://vivo.com.br</p></td>
+<p>não é lido</p>
+<p>barra</p></td>
 </tr>
 <tr>
 <th scope="row">barra contrária</th>
 <td style="text-align: center;">\</td>
-<td>c:\folder\file.docx</td>
+<td>não é lido</td>
 </tr>
 <tr>
 <th scope="row">barra vertical</th>
 <td style="text-align: center;">|</td>
-<td>Produtos | Nosso site</td>
+<td>não é lido</td>
 </tr>
 <tr>
 <th scope="row">interrogação</th>
 <td style="text-align: center;">?</td>
-<td><p>Qual o seu nome?</p>
-<p>Você está chateado??</p></td>
+<td><p>não é lido</p></td>
 </tr>
 <tr>
 <th scope="row">dois pontos</th>
 <td style="text-align: center;">:</td>
 <td>observe: como o leitor de tela lê símbolos.<p></p>
-<p>https://www.vivo.com.br</p></td>
+<p>não é lido</p></td>
 </tr>
 <tr>
 <th scope="row">&#8249; (colchetes angulares )</th>
 <td style="text-align: center;">&#8249;</td>
-<td>isto é uma &#8249;palavra&#8250; cercada por colchetes angulares.</td>
+<td>não é lido</td>
 </tr>
 <tr>
 <th scope="row">&#8250; (colchetes angulares)</th>
 <td style="text-align: center;">&#8250;</td>
-<td>Home &#8250; Produtos</td>
+<td>não é lido</td>
 </tr>
 <table id="math" class="data">
     <caption>Simbolos matemáticos</caption>
@@ -116,7 +113,7 @@
         <tr>
             <th scope="col">Simbolo</th>
             <th scope="col">caractere</th>
-            <th scope="col">uso em contexto</th>
+            <th scope="col">Como é lido pelo LT</th>
             <th scope="col">JAWS</th>
             <th scope="col">NVDA</th>
             <th scope="col">VoiceOver</th>
@@ -126,52 +123,52 @@
         <tr>
             <th scope="row">mais</th>
             <td style="text-align: center;">+</td>
-            <td>5+2</td>
+            <td>5+2 cinco mais dois</td>
         </tr>
         <tr>
             <th scope="row">menos</th>
             <td style="text-align: center;">&minus;</td>
-            <td>5−2</td>
+            <td> 5-2 cinco menos dois</td>
         </tr>
         <tr>
             <th scope="row">mais ou menos</th>
             <td style="text-align: center;">±</td>
-            <td>5±2</td>
+            <td>5±2 cinco mais ou menos dois</td>
         </tr>
         <tr>
             <th scope="row">dividido</th>
             <td style="text-align: center;">÷</td>
-            <td>5÷2</td>
+            <td>5÷2 cinco dividido por dois</td>
         </tr>
         <tr>
             <th scope="row">vezes</th>
             <td style="text-align: center;">×</td>
-            <td>5×2</td>
+            <td>5×2 cinco vezes dois</td>
         </tr>
         <tr>
             <th scope="row">igual</th>
             <td style="text-align: center;">=</td>
-            <td>5=3+2</td>
+            <td>5=3+2 cinco igual três mais dois</td>
         </tr>
         <tr>
             <th scope="row">diferente</th>
             <td style="text-align: center;">≠</td>
-            <td>5≠2</td>
+            <td>5≠2 cinco diferente de dois</td>
         </tr>
         <tr>
             <th scope="row">percentagem</th>
             <td style="text-align: center;">%</td>
-            <td>5%</td>
+            <td>5% cinco porcento</td>
         </tr>
         <tr>
             <th scope="row">menor que</th>
             <td style="text-align: center;">&lt;</td>
-            <td>5&lt;6</td>
+            <td>5&lt;6 cinco menor seis</td>
         </tr>
 <tr>
 <th scope="row">maior que</th>
 <td style="text-align: center;">&gt;</td>
-<td>5&gt;4</td>
+<td>5&gt;4 cinco maior quatro</td>
 </tr>
 </tbody>
 </table>
